@@ -1,0 +1,30 @@
+header{
+    position: relative;
+    height: 65px;
+    width: 100%;
+}
+.heading{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.heading h1{
+    font-family: 'Montez', cursive; 
+    color: rgb(81, 81, 247);
+}
+.heading h6{
+    font-family: 'Ubuntu Mono', monospace;
+}
+.sign{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.sign button{
+    background-color:  rgb(81, 81, 247);
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}

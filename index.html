@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- TODO: Include all your code for the header and home page here -->
+    <header>
+        <div class="heading">
+        <h1>ScriBBler</h1>
+        <h6>Explore Imagine Create</h6>
+        </div>
+        <div class="sign">
+        <button id="signUp">Sign Up</button>
+        <button id="signIn">Sign In</button>
+        </div>
+    </header>
+  
+    <!--The Modal1-->
+    <div class="modal1" id="myModal1">
+        <form class="modal-content">
+        <h2>Get Started</h2>
+        <span class="close">&times;</span> <hr>
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required/>
+        <label>Username</label>
+        <input type="text" placeholder="Enter your username" required/>
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" required/>
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Re-enter your password" required/>
+        <button>Sign Up</button>
+       </form>
+    </div>
+    
+    <!--The Modal2-->
+    <div class="modal2" id="myModal2">
+        <form class="modal-content">
+        <h2>Welcome Back!</h2>
+        <span class="close1">&times;</span> <hr>
+        <label>Username</label>
+        <input type="text" placeholder="Enter your name" required/>
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" required/>
+        <button>Sign In</button>
+        <p class="modalPara">Not a member?<a href="#" id="signUpLink">Sign Up</a></p>
+       </form>
+    </div>
+
+    <div id="post">
+        <button><a href="./html/postslist.html" id="blog">All Posts</a></button>
+        <button id="create">Create Post</button>
+    </div>
+
+    <!--The Modal3-->
+    <div class="modal3" id="myModal3">
+        <form class="modal-content3">
+        <h2>Pen Your Post</h2>
+        <span class="close2">&times;</span> <hr>
+        <label>Title</label>
+        <input type="text" placeholder="Enter title of your post" />
+        <label>Contents</label>
+        <textarea rows="15" cols="10" id="area">Enter the contents of your post</textarea>
+        <button id="create-btn">Create</button>
+       </form>
+    </div>
+
+    <script src="./scripts/common.js" type="text/javascript"></script>
+    <script src="./scripts/index.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.post-main-container {
+    padding: 30px 60px;
+}
+
+.post-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#authorEditBtnContainer {
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.post-author {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight:600;
+}
+
+#editPostButton {
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    background: #e73f66;
+    color: #fff;
+    float: right;
+    box-shadow: 0 10px 20px -8px #e73f66;
+    outline: none;
+    border: none;
+}
+
+.fa-edit,
+.fa-save {
+    padding-left: 7px;
+}
+
+.fa-thumbs-up {
+    margin-right: 5px;
+}
+
+#postText {
+    margin: 20px auto;
+    font-size: 17px;
+    text-align: justify;
+    word-spacing: 2%;
+    font-family: sans-serif;
+}
+
+.like-post {
+    margin-top: 20px;
+}
+
+#likePostBtn {
+    width: 80px;
+    display: block;
+    background: #e73f66;
+    color: #ffffff;
+    box-shadow: 0 10px 20px -8px #e73f66;
+    padding: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.like-post #likePostBtn:hover {
+    transform: translateY(-3px);
+    color: rgb(49, 212, 49);
+}
+
+#likesCount {
+    color: #0e0101;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.comment-form {
+    width: 90%;
+    margin: 25px 0;
+}
+
+#commentText {
+    width: 60%;
+    font-weight: bold;
+}
+
+.add-comment-btn {
+    width: 120px;
+    background-color:#e73f66;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    box-shadow: 0 10px 20px -8px #e73f66;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.allCommentsHeading {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#allCommentsBox {
+    background-color: rgb(198, 195, 195);
+    font-weight: bolder;
+    padding: 1px;
+    width: 70%;
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal1, .modal2{
+    font-family:sans-serif;
+    display: none;
+    position:fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: wheat;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid white;
+}
+.modal-content h2,.modal-content3 h2{
+    color: #aaa;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+.modal-content label{
+    margin-top: 5px;
+}
+.modal-content input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(226, 221, 221);
+    border: none;
+    padding: 5px;
+}
+.modal-content button{
+    margin-top: 8px;
+    background-color: rgb(6, 184, 6);
+    color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+.close,.close1{
+    color: #aaa;
+    position: absolute;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover, .close:focus,
+.close1:hover, .close1:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#signUpLink{
+    text-decoration: none;
+    color: rgb(7, 7, 227);
+}
+.modalPara{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+}
+
